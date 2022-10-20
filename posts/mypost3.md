@@ -1,12 +1,12 @@
 ---
 title: "This is an example post"
-annotation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+annotation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 category: "example"
 date: "2022-03-13"
-bannerImage: "ekologi.jpg"
+bannerImage: "coca.jpg"
 author: "Тёмный Эколог"
 tags:
-    - example
+    - 
 ---
 
 

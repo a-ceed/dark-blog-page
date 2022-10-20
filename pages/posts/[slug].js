@@ -1,18 +1,56 @@
 import fs from "fs";
 import matter from "gray-matter";
 import md from 'markdown-it';
+import Layout from "../../components/Layout";
+import Link from "next/link";
+import Image from "next/image";
+import mainLogo from "../../public/dark.png";
+
 
 // The page for each post
 export default function Post({frontmatter, content}) {
+    console.log("данные", frontmatter);
+    const {title, author, annotation, category, date, bannerImage, tags} = frontmatter
 
-    const {title, author, category, date, bannerImage, tags} = frontmatter
+    return <main id="site-main" className="site-main outer">
+        <div  className="inner" >
+        <article className="post-full post tag-getting-started featured">
+            <header className="post-full-header">
+                <section className="post-full-tags">
+                    <Link href="/tag/getting-started">
+                        <a>{tags}</a>
+                    </Link>
+                </section>
 
-    return <main>
-        <img src={bannerImage}/>
-        <h1>{title}</h1>
-        <h2>{author} || {date}</h2>
-        <h3>{category} || {tags.join()}</h3>
-        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+                <h1 className="post-full-title">{title}</h1>
+                <p className="post-full-custom-excerpt">{annotation}</p>
+                <div className="post-full-byline">
+                    <section className="post-full-byline-content">
+                        <ul className="author-list">
+                            <li className="author-list-item">
+                                <a className="author-avatar">
+                                    <Image src={mainLogo} alt="fggfgf" layout="responsive" quality="1" width="36" height="36" />
+                                </a>
+                            </li>
+                        </ul>
+                        <section className="post-full-byline-meta">
+                            <h4 className="author-name">{author}</h4>
+                            <div className="byline-meta-content">
+                                <time className="byline-meta-date">{date}</time>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+
+            </header>
+        </article>
+
+            <div className="imgcontainer"><img src={"http://localhost:3000/"+bannerImage}/></div>
+
+            <section className="post-full-content">
+        <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+            </section>
+        </div>
     </main>
 }
 

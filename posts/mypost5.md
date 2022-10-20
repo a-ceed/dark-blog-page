@@ -1,12 +1,13 @@
 ---
 title: "This is an example post"
-annotation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+annotation: "Как корпорации поимели зелёное движение.
+Разговор Морфиуса с экологистом."
 category: "example"
 date: "2022-03-13"
 bannerImage: "ekologi.jpg"
 author: "Тёмный Эколог"
 tags:
-    - example
+    - 
 ---
 
 

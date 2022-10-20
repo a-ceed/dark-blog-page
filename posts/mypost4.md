@@ -6,7 +6,7 @@ date: "2022-03-13"
 bannerImage: "ekologi.jpg"
 author: "Тёмный Эколог"
 tags:
-    - example
+    - 
 ---
 
 

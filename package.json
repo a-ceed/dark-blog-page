@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "gray-matter": "^4.0.3",
     "markdown-it": "^12.3.2",
     "next": "12.1.0",
