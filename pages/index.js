@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import PostCard from "../components/PostCard";
 import fs from 'fs';
 import matter from 'gray-matter';
-import mainLogo from "../public/favicon.ico";
+import mainLogo from {`${process.env.NEXT_PUBLIC_FAVICON}../public/favicon.ico`};
 
 export default function Home({posts}) {
     const bannerImages = {
