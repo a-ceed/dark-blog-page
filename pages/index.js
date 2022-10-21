@@ -45,7 +45,7 @@ export default function Home({posts}) {
                                     {nextImages ? (
                                         <div className="post-card-image">
                                             <Image
-                                                src={"http://localhost:3000/"+bannerImage}
+                                                src={"https://temniyecolog.ru/"+bannerImage}
                                                 alt={title}
                                                 sizes="(max-width: 640px) 320px, (max-width: 1000px) 500px, 680px"
                                                 layout="fill"

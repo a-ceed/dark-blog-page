@@ -11,7 +11,7 @@ export default function PostCard({frontmatter, content}) {
     const featImg = bannerImage;
     const nextImages = bannerImage;
     const featureImages = bannerImage;
-    const url = "localhost:3000";
+    const url = "temniyecolog.ru";
 
 
     return (

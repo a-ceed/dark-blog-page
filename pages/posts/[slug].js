@@ -45,7 +45,7 @@ export default function Post({frontmatter, content}) {
             </header>
         </article>
 
-            <div className="imgcontainer"><img src={"http://localhost:3000/"+bannerImage}/></div>
+            <div className="imgcontainer"><img src={"https://temniyecolog.ru/"+bannerImage}/></div>
 
             <section className="post-full-content">
         <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
