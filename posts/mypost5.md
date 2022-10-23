@@ -4,7 +4,7 @@ annotation: "И межотраслевых балансов"
 category: "example"
 date: "2022-03-13"
 previewImage: "doksiadis_prw.png"
-bannerImage: "doksiadis.jpg"
+bannerImage: "docsiadis.jpg"
 author: "Тёмный Эколог"
 tags:
     - 
