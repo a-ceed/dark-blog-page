@@ -28,7 +28,7 @@ export default function Post({frontmatter, content}) {
                         <ul className="author-list">
                             <li className="author-list-item">
                                 <a className="author-avatar">
-                                    <Image src={avatar} alt="Тёмный эколог" layout="responsive" quality="25" width="36" height="36" />
+                                    <Image src={"https://temniyecolog/public/dark8.png"} alt="Экология Тёмного эколога" layout="responsive" quality="25" width="36" height="36" />
                                 </a>
                             </li>
                         </ul>
