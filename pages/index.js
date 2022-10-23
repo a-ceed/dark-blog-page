@@ -15,6 +15,7 @@ export default function Home({posts}) {
     const featImg = bannerImages;
     const nextImages = bannerImages;
     const feature_image = bannerImages;
+
     const url = mainLogo;
   return (
     <div className="">
@@ -35,6 +36,7 @@ export default function Home({posts}) {
                             const {slug, frontmatter} = post
                             //extract frontmatter properties
                             const {title, annotation, category, date, bannerImage, previewImage, tags} = frontmatter
+                            const postImage = previewImage ? previewImage : bannerImage;
                             return (
 
                                 // eslint-disable-next-line react/jsx-key
@@ -45,7 +47,7 @@ export default function Home({posts}) {
                                     {nextImages ? (
                                         <div className="post-card-image">
                                             <Image
-                                                src={"https://temniyecolog.ru/"+previewImage}
+                                                src={"https://temniyecolog.ru/"+postImage}
                                                 alt={title}
                                                 sizes="(max-width: 640px) 320px, (max-width: 1000px) 500px, 680px"
                                                 layout="fill"
