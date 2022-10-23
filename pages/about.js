@@ -1,10 +1,8 @@
 import fs from "fs";
 import matter from "gray-matter";
 import md from 'markdown-it';
-import Layout from "../../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
-import avatar from "../../public/dark8.png";
 
 
 // The page for each post
@@ -28,7 +26,7 @@ export default function About({frontmatter, content}) {
                         <ul className="author-list">
                             <li className="author-list-item">
                                 <a className="author-avatar">
-                                    <Image src={"https://temniyecolog.ru/_next/static/media/dark8.95736bb7.png"} alt="Экология Тёмного эколога" layout="responsive" quality="25" width="36" height="36" />
+                                    <Image src={"https://temniyecolog.ru/_next/static/media/dark8.95736bb7.png"} alt="Экология Тёмного эколога" layout="responsive" quality="25" width="100" height="100" />
                                 </a>
                             </li>
                         </ul>

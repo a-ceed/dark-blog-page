@@ -12,10 +12,10 @@ const items3 = "Контакты"
          <Link href="/">{items1}</Link>
      </li>
     <li className="nav-home" role="menu-item">
-        <Link href="/">{items2}</Link>
+        <Link href="/about">{items2}</Link>
     </li>
     <li className="nav-home" role="menu-item">
-        <Link href="/">{items3}</Link>
+        <Link href="/contacts">{items3}</Link>
     </li>
     </ul>
   )
