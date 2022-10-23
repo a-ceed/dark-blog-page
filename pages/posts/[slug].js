@@ -4,7 +4,7 @@ import md from 'markdown-it';
 import Layout from "../../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
-import mainLogo from "../../public/dark.png";
+import mainLogo from "../../public/dark8.png";
 
 
 // The page for each post
