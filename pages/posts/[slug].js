@@ -4,7 +4,7 @@ import md from 'markdown-it';
 import Layout from "../../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
-import mainLogo from "../../public/dark8.png";
+import avatar from "../../public/dark8.png";
 
 
 // The page for each post
@@ -28,7 +28,7 @@ export default function Post({frontmatter, content}) {
                         <ul className="author-list">
                             <li className="author-list-item">
                                 <a className="author-avatar">
-                                    <Image src={mainLogo} alt="Тёмный эколог" layout="responsive" quality="25" width="36" height="36" />
+                                    <Image src={avatar} alt="Тёмный эколог" layout="responsive" quality="25" width="36" height="36" />
                                 </a>
                             </li>
                         </ul>
