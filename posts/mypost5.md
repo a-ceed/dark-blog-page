@@ -5,6 +5,7 @@ annotation: "Как корпорации поимели зелёное движ�
 Разговор Морфиуса с экологистом."
 category: "example"
 date: "2022-03-13"
+previewImage: "ekologi.jpg"
 bannerImage: "ekologi.jpg"
 author: "Тёмный Эколог"
 tags:

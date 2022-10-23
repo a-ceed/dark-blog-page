@@ -4,6 +4,7 @@ annotation: ""
 category: "example"
 date: "2022-03-13"
 bannerImage: "rsbor.jpg"
+previewImage: "razdelny_sbor_prw.png"
 author: "Тёмный Эколог"
 tags:
     - 
