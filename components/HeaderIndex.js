@@ -25,7 +25,7 @@ function HeaderIndex (props){
                                             textAlign: "center",
                                         }}
                                     >
-                                        <Image src={mainLogo} alt="fggfgf" layout="responsive" quality="100" width="100" height="100" />
+                                        <Image src={mainLogo} alt="Экологический блог Тёмного эколога" layout="responsive" quality="95" width="100" height="100" />
                                     </div>
                                 </a>
                             </Link>

@@ -9,7 +9,6 @@ import mainLogo from "../../public/dark8.png";
 
 // The page for each post
 export default function Post({frontmatter, content}) {
-    console.log("данные", frontmatter);
     const {title, author, annotation, category, date, bannerImage, tags} = frontmatter
 
     return <main id="site-main" className="site-main outer">
@@ -29,7 +28,7 @@ export default function Post({frontmatter, content}) {
                         <ul className="author-list">
                             <li className="author-list-item">
                                 <a className="author-avatar">
-                                    <Image src={mainLogo} alt="fggfgf" layout="responsive" quality="1" width="36" height="36" />
+                                    <Image src={mainLogo} alt="Тёмный эколог" layout="responsive" quality="25" width="36" height="36" />
                                 </a>
                             </li>
                         </ul>
