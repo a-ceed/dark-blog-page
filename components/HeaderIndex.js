@@ -2,7 +2,7 @@ import {HeaderBackground} from "./HeaderBackground";
 import {SiteNav} from "./SiteNav"
 import Link from "next/link";
 import Image from "next/image";
-import mainLogo from "../public/dark9.png";
+import mainLogo from "../public/dark8.png";
 
 
 
