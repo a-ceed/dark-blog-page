@@ -56,8 +56,8 @@ export default function About({frontmatter, content}) {
 
 
 // Generate the static props for the page
-export async function getStaticProps({ params: { slug } }) {
-    const fileName = fs.readFileSync(`pages/about.md`, 'utf-8');
+export async function getStaticProps() {
+    const fileName = fs.readFileSync(`pages/about/about.md`, 'utf-8');
     const { data: frontmatter, content } = matter(fileName);
     return {
       props: {
