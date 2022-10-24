@@ -1,5 +1,5 @@
 ---
-bannerImage: "wake_up.jpg"
+bannerImage: "wake_up.jpeg"
 date: "2022-10-24"
 author: "Тёмный Эколог"
 ---
