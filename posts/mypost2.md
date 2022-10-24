@@ -2,7 +2,7 @@
 title: "Кто виноват в пластиковом загрязнении: производитель или потребитель?"
 annotation: ""
 category: "example"
-date: "2022-03-13"
+date: "2021-03-13"
 bannerImage: "rsbor.jpg"
 previewImage: "razdelny_sbor_prw.png"
 author: "Тёмный Эколог"

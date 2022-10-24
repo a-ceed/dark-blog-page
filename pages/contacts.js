@@ -8,7 +8,6 @@ import Image from "next/image";
 // The page for each post
 export default function Contacts({frontmatter, content}) {
     const {title, author, annotation, category, date, bannerImage, tags} = frontmatter
-
     return <main id="site-main" className="site-main outer">
         <div  className="inner" >
         <article className="post-full post tag-getting-started featured">
