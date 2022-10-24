@@ -111,7 +111,7 @@ export async function getStaticProps(){
     const readfiles = fs.readdirSync('posts');
 
     const files = readfiles.reverse();
-
+    console.log("массивы", files);
 
     // get frontmatter & slug from each post
     const posts = files.map((fileName) => {

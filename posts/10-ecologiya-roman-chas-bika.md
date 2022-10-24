@@ -3,7 +3,8 @@ title: "Роман Ивана Антоновича Ефремова «Час б�
 annotation: "Лучшее художественное произведение на социально-экологическую тематику"
 category: 
 date: "2022-03-13"
-bannerImage: "capitalizm-ecologiya.jpg"
+previewImage: "ecologiya_chas_byka_prw.png"
+bannerImage: "ecologiya_chas_byka.jpg"
 author: "Тёмный Эколог"
 tags:
     - 
