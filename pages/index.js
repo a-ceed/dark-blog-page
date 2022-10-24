@@ -9,6 +9,7 @@ import matter from 'gray-matter';
 import mainLogo from "../public/favicon.ico";
 
 export default function Home({posts}) {
+
     const bannerImages = {
         dimensions: {width: 200, height: 121},
         url: mainLogo
@@ -17,6 +18,8 @@ export default function Home({posts}) {
     const nextImages = bannerImages;
     const feature_image = bannerImages;
     const YOUR_YM_ID = "90904465";
+
+
 
     const url = mainLogo;
   return (
@@ -106,7 +109,9 @@ export default function Home({posts}) {
 export async function getStaticProps(){
     // get list of files from the posts folder
     const readfiles = fs.readdirSync('posts');
+
     const files = readfiles.reverse();
+
 
     // get frontmatter & slug from each post
     const posts = files.map((fileName) => {
@@ -115,6 +120,7 @@ export async function getStaticProps(){
         const { data: frontmatter } = matter(readFile);
 
         return {
+
             slug,
             frontmatter,
         };

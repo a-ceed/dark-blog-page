@@ -1,6 +1,6 @@
 ---
 title: "Святая переработка"
-annotation: "Визуализация технологии переработки мусорных отходов"
+annotation: "Визуализация возможностей технологии переработки отходов"
 category: "example"
 date: "2022-03-13"
 previewImage: "pererabotka_othodov.jpg"
