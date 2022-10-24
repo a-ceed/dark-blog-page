@@ -25,7 +25,7 @@ export default function Contacts({frontmatter, content}) {
                         <ul className="author-list">
                             <li className="author-list-item">
                                 <a className="author-avatar">
-                                    <Image src={"https://temniyecolog.ru/_next/static/media/dark8.95736bb7.png"} alt="Экология Тёмного эколога" layout="responsive" quality="25" width="56" height="56" />
+                                    <Image src={"https://temniyecolog.ru/_next/static/media/dark8.5416d8b1.png"} alt="Экология Тёмного эколога" layout="responsive" quality="25" width="56" height="56" />
                                 </a>
                             </li>
                         </ul>
