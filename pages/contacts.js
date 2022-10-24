@@ -30,13 +30,19 @@ export default function Contacts({frontmatter, content}) {
                                 </a>
                             </li>
                         </ul>
+                        <section className="post-full-byline-meta">
+                            <h4 className="author-name">{author}</h4>
+                            <div className="byline-meta-content">
+                                <time className="byline-meta-date">{date}</time>
+                            </div>
+                        </section>
                     </section>
                 </div>
 
             </header>
         </article>
 
-
+            <div className="imgcontainer"><img src={"https://temniyecolog.ru/"+bannerImage}/></div>
 
             <section className="post-full-content">
         <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
