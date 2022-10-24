@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Footer (props){
 
-    const copyright = "Пикабу";
+
     return (
         <footer className="site-footer outer">
             <div className="site-footer-content inner">
@@ -11,16 +11,16 @@ function Footer (props){
                 </section>
 
                 <nav className="site-footer-nav">
-                    <Link href="http://ya.ru">
-                        <a>{copyright}</a>
+                    <Link href="https://pikabu.ru/@darkecologist">
+                        <a>На Пикабу</a>
                     </Link>
 
-                        <a href="http://ya.ru" target="_blank" rel="noopener noreferrer">
-                            Телеграм
+                        <a href="https://t.me/darkecologist" target="_blank" rel="noopener noreferrer">
+                           В Телеграме
                         </a>
 
 
-                    <a href="https://www.jamify.org" target="_blank" rel="noopener noreferrer">
+                    <a href="https://vk.com/darkecologist" target="_blank" rel="noopener noreferrer">
                         Вконтакте
                     </a>
                 </nav>

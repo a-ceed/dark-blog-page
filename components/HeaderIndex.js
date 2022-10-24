@@ -30,7 +30,7 @@ function HeaderIndex (props){
                                 </a>
                             </Link>
                             Тёмный эколог</h1>
-                        <h2 className="site-description">антикапитализм</h2>
+                        <h2 className="site-description">реальная экология</h2>
                     </div>
 
 
