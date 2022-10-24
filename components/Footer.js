@@ -7,7 +7,7 @@ function Footer (props){
         <footer className="site-footer outer">
             <div className="site-footer-content inner">
                 <section className="copyright">
-                    <a href="/">Блог Тёмного эколога</a>
+                    <a href="https://temniyecolog.ru">Блог Темного эколога</a>
                 </section>
 
                 <nav className="site-footer-nav">
