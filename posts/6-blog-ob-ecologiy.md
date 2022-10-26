@@ -1,4 +1,5 @@
 ---
+id: "6"
 title: "Почему начал вести блог"
 annotation: "Я не агент Pepsi"
 category: "example"

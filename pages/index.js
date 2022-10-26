@@ -18,10 +18,12 @@ export default function Home({posts}) {
     const nextImages = bannerImages;
     const feature_image = bannerImages;
     const YOUR_YM_ID = "90904465";
-
-
-
     const url = mainLogo;
+
+    const sortposts = posts.sort(function(a, b){
+        return b.frontmatter.id-a.frontmatter.id
+    });
+
   return (
     <div className="">
       <Head>
@@ -44,16 +46,18 @@ export default function Home({posts}) {
 
                 <div className="inner posts">
                     <div className="post-feed">
-                        {posts.map(post => {
+                        {
+                            sortposts.map(post => {
+                            console.log("Консоль", posts);
                             //extract slug and frontmatter
                             const {slug, frontmatter} = post
                             //extract frontmatter properties
-                            const {title, annotation, category, date, bannerImage, previewImage, tags} = frontmatter
+                            const {id, title, annotation, category, date, bannerImage, previewImage, tags} = frontmatter
                             const postImage = previewImage ? previewImage : bannerImage;
                             return (
 
                                 // eslint-disable-next-line react/jsx-key
-                    <article className="post-card post tag-getting-started">
+                    <article key={post.id} className="post-card post tag-getting-started">
                         {featImg && (
                             <Link href={"posts/"+slug}>
                                 <a className="post-card-image-link" aria-label={title}>
@@ -110,11 +114,11 @@ export async function getStaticProps(){
     // get list of files from the posts folder
     const readfiles = fs.readdirSync('posts');
 
-    const files = readfiles.reverse();
-    console.log("массивы", files);
+
+
 
     // get frontmatter & slug from each post
-    const posts = files.map((fileName) => {
+    const posts = readfiles.map((fileName) => {
         const slug = fileName.replace('.md', '');
         const readFile = fs.readFileSync(`posts/${fileName}`, 'utf-8');
         const { data: frontmatter } = matter(readFile);

@@ -55,6 +55,7 @@ export default function Post({frontmatter, content}) {
 
 // Generating the paths for each post
 export async function getStaticPaths() {
+
   // Get list of all files from our posts directory
   const files = fs.readdirSync("posts");
   // Generate a path for each one
