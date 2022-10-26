@@ -48,7 +48,7 @@ export default function Home({posts}) {
                     <div className="post-feed">
                         {
                             sortposts.map(post => {
-                            console.log("Консоль", posts);
+
                             //extract slug and frontmatter
                             const {slug, frontmatter} = post
                             //extract frontmatter properties
