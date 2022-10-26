@@ -3,7 +3,7 @@ id: "8"
 title: "Инферно Дена Брауна"
 annotation: "Оправдание программы экологического геноцида"
 category: 
-date: "2022-03-13"
+date: "2020-11-20"
 bannerImage: "ecofashizm-den-braun.jpg"
 author: "Тёмный Эколог"
 tags:

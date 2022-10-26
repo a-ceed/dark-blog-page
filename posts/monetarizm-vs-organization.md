@@ -3,7 +3,7 @@ id: "9"
 title: "Какой из двух подходов в экономике экологичный?"
 annotation: "Монетаризм против организационно-технологического подхода"
 category: 
-date: "2022-03-13"
+date: "2020-12-2"
 bannerImage: "capitalizm-ecologiya.jpg"
 previewImage: "capitalizm-ecologiya-prw.jpg"
 author: "Тёмный Эколог"

@@ -21,7 +21,7 @@ export default function Home({posts}) {
     const url = mainLogo;
 
     const sortposts = posts.sort(function(a, b){
-        return b.frontmatter.id-a.frontmatter.id
+        return a.frontmatter.id-b.frontmatter.id
     });
 
   return (

@@ -3,7 +3,7 @@ id: "1"
 title: "Тук-тук Экологист"
 annotation: "Как корпорации поимели зелёное движение. Разговор Морфиуса с экологистом."
 category: 
-date: "2020-03-13"
+date: "2020-10-15"
 previewImage: "ecologiya_matrix_prw.png"
 bannerImage: "coca.jpg"
 author: "Тёмный Эколог"
