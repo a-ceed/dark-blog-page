@@ -1,9 +1,11 @@
+import Link from "next/link";
+import Image from "next/image";
+import Head from "next/head";
 import fs from "fs";
 import matter from "gray-matter";
 import md from 'markdown-it';
 import Layout from "../../components/Layout";
-import Link from "next/link";
-import Image from "next/image";
+
 import avatar from "../../public/dark8.png";
 
 
@@ -12,6 +14,10 @@ export default function Post({frontmatter, content}) {
     const {title, author, annotation, category, date, bannerImage, tags} = frontmatter
 
     return <main id="site-main" className="site-main outer">
+        <Head>
+            <title>{title}</title>
+            <meta name="description" content={title+". "+annotation} />
+        </Head>
         <div  className="inner" >
         <article className="post-full post tag-getting-started featured">
             <header className="post-full-header">

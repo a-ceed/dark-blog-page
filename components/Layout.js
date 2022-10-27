@@ -10,7 +10,7 @@ export default function Layout({ children }) {
 
     const url = useRouter();
     let isHome;
-    console.log("путь", url.asPath)
+
 
     if ( url.asPath ==="/" ) {
         isHome = "true"
