@@ -5,7 +5,7 @@ author: "Тёмный Эколог"
 ---
 
 Вы можете поделиться вашими мыслями со мной или задать вопрос через почту:
-> temniyekolog@yandex.ru
+> temniyecolog@yandex.ru
 
 Почитать обсуждение моих статей на [Пикабу](https://pikabu.ru/@darkecologist).
 
