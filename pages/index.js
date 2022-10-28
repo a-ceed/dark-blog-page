@@ -30,7 +30,7 @@ export default function Home({posts}) {
         <title>Блог Тёмного эколога</title>
         <meta name="description" content="Экологический блог Тёмного эколога" />
         <meta name="yandex-verification" content="1b19d3159f8ae8fd" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://temniyecolog.ru/favicon.ico" />
           <YandexMetrika
               yid={YOUR_YM_ID}
               clickmap={true}

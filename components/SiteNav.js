@@ -5,9 +5,9 @@ import { Navigation } from "./Navigation";
 import mainLogo from "../public/favicon.ico";
 
 export const SiteNav = () => {
-const navigation = "Навигация"
-const title = "Тайтл в навигации"
-const postTitle = "постТайтл"
+const navigation = ""
+
+
 
   return (
     <nav className="site-nav">
@@ -22,7 +22,7 @@ const postTitle = "постТайтл"
           </Link>
           <div className="site-nav-content">
             <Navigation data={navigation} />
-           <span className="nav-post-title">{postTitle}</span>
+           <span className="nav-post-title"></span>
           </div>
         </div>
       </div>
