@@ -10,13 +10,27 @@ import avatar from "../../public/dark8.png";
 
 
 // The page for each post
-export default function Post({frontmatter, content}) {
+export default function Post({frontmatter, content, slug}) {
     const {title, author, annotation, category, date, bannerImage, tags} = frontmatter
+    const urlfilename = slug;
+
 
     return <main id="site-main" className="site-main outer">
         <Head>
             <title>{title}</title>
             <meta name="description" content={title+". "+annotation} />
+
+            {/*OpenGraph*/}
+            <meta property="og:locale" content="ru_RU"/>
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content={title}/>
+            <meta property="og:description" content={annotation}/>
+            <meta property="og:image" content={"https://temniyecolog.ru/"+bannerImage}/>
+            <meta property="og:image:width" content="512"/>
+            <meta property="og:image:height" content="320"/>
+            <meta property="og:url" content={"https://temniyecolog.ru/posts/"+urlfilename}/>
+            <meta property="og:site_name" content="<Блог Тёмного Эколога>"/>
+
         </Head>
         <div  className="inner" >
         <article className="post-full post tag-getting-started featured">
@@ -86,6 +100,7 @@ export async function getStaticProps({ params: { slug } }) {
       props: {
         frontmatter,
         content,
+          slug,
       },
     };
   }
