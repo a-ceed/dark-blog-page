@@ -7,6 +7,7 @@ import PostCard from "../components/PostCard";
 import fs from 'fs';
 import matter from 'gray-matter';
 import mainLogo from "../public/favicon.ico";
+import avatar from "../public/dark8.png";
 
 export default function Home({posts}) {
 
@@ -30,6 +31,20 @@ export default function Home({posts}) {
         <title>Блог Тёмного эколога</title>
         <meta name="description" content="Экологический блог Тёмного эколога" />
         <meta name="yandex-verification" content="1b19d3159f8ae8fd" />
+
+          {/*OpenGraph*/}
+          <meta property="og:locale" content="ru_RU"/>
+          <meta property="og:type" content="article"/>
+          <meta property="og:title" content="Блог Тёмного эколога"/>
+          <meta property="og:description" content="Пойдём со мной из мира грёз экоактивизма в реальный мир науки экологии. Я расскажу как корпорации «разводят» зеленое движение и покажу тебе мир без них."/>
+          <meta property="og:image" content={avatar}/>
+          <meta property="og:image:width" content="256"/>
+          <meta property="og:image:height" content="256"/>
+          <meta property="og:url" content="https://temniyecolog.ru"/>
+          <meta property="og:site_name" content="<Блог Тёмного Эколога>"/>
+
+
+
         <link rel="icon" href="https://temniyecolog.ru/favicon.ico" />
           <YandexMetrika
               yid={YOUR_YM_ID}
