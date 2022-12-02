@@ -18,7 +18,7 @@ export default function Post({frontmatter, content, slug}) {
     return <main id="site-main" className="site-main outer">
         <Head>
             <title>{title}</title>
-            <meta name="description" content={title+". "+annotation} />
+            <meta name="description" content={annotation} />
 
             {/*OpenGraph*/}
             <meta property="og:locale" content="ru_RU"/>
