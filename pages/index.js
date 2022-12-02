@@ -37,11 +37,11 @@ export default function Home({posts}) {
           <meta property="og:type" content="article"/>
           <meta property="og:title" content="Блог Тёмного эколога"/>
           <meta property="og:description" content="Пойдём со мной из мира грёз экоактивизма в реальный мир науки экологии. Я расскажу как корпорации «разводят» зеленое движение и покажу тебе мир без них."/>
-          <meta property="og:image" content={avatar}/>
+          <meta property="og:image" content="https://temniyecolog.ru/_next/static/media/dark8.5416d8b1.png"/>
           <meta property="og:image:width" content="256"/>
           <meta property="og:image:height" content="256"/>
           <meta property="og:url" content="https://temniyecolog.ru"/>
-          <meta property="og:site_name" content="<Блог Тёмного Эколога>"/>
+          <meta property="og:site_name" content="Блог Тёмного Эколога"/>
 
 
 
