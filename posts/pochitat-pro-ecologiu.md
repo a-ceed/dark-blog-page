@@ -41,8 +41,14 @@ tags:
 
 [Скачать: Мера в урбанистике](https://temniyecolog.ru/mera_v_urbanistike.pdf)
 
+
 [Скачать: Матрица ландшафта](https://temniyecolog.ru/matrix_of_landscape.pdf)
 
+[Предзаказ: Матрица ландшафта](https://konzeptual.ru/matrica-landshafta/)
+
+
 [Скачать: Экономика инновационного развития](https://temniyecolog.ru/ekonomika_innovatsionnogo_razvitia.pdf)
+
+[Купить: Экономика инновационного развития](https://www.ozon.ru/product/ekonomika-innovatsionnogo-razvitiya-upravlencheskie-osnovy-ekonomicheskoy-teorii-efimov-241233426/?sh=wJY_1hzMsA)
 
 
