@@ -4,8 +4,8 @@ title: "Что почитать по экологии?"
 annotation: "Лучшая книга по экологии -- это учебник по политэкономии"
 category: "example"
 date: "2023-02-04"
-previewImage: "kakie-knigi-po-ecologiy-prochitat.png"
-bannerImage: "kakie-knigi-po-ecologiy-prochitat.png"
+previewImage: "kakie-knigi-po-ecologiy-prochitat.jpg"
+bannerImage: "kakie-knigi-po-ecologiy-prochitat.jpg"
 author: "Тёмный Эколог"
 tags:
     - 
