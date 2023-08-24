@@ -7,6 +7,8 @@ import md from 'markdown-it';
 import Layout from "../../components/Layout";
 
 import avatar from "../../public/dark8.png";
+import tel from "../../public/telegram.png";
+import mainLogo from "../../public/dark8.png";
 
 
 // The page for each post
@@ -69,7 +71,8 @@ export default function Post({frontmatter, content, slug}) {
             <section className="post-full-content">
         <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
                 <div> <a className="author-telegram">
-                    <Image src={"https://temniyecolog.ru/_next/static/media/telegram.png"} alt="Экология Тёмного эколога" layout="responsive" quality="25" width="190" height="51" />
+                    <Image src={"https://temniyecolog.ru/_next/static/media/telegram.1e9a8a8b.png"} alt="Экология Тёмного эколога" layout="responsive" quality="25" width="190" height="51" />
+                    <Image src={tel} alt="Экологический блог Тёмного эколога" layout="responsive" quality="95" width="190" height="51" />
                 </a></div>
             </section>
         </div>
