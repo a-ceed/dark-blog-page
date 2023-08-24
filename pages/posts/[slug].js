@@ -70,10 +70,9 @@ export default function Post({frontmatter, content, slug}) {
 
             <section className="post-full-content">
         <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-                <div> <a className="author-telegram">
-                    <Image src={"https://temniyecolog.ru/_next/static/media/telegram.1e9a8a8b.png"} alt="Экология Тёмного эколога" layout="responsive" quality="25" width="190" height="51" />
-                    <Image src={tel} alt="Экологический блог Тёмного эколога" layout="responsive" quality="95" width="190" height="51" />
-                </a></div>
+                {/*<div> <a className="author-telegram">*/}
+                {/*    <Image src={"https://temniyecolog.ru/_next/static/media/telegram.1e9a8a8b.png"} alt="Экология Тёмного эколога" layout="responsive" quality="25" width="190" height="51" />*/}
+                {/*</a></div>*/}
             </section>
         </div>
     </main>
