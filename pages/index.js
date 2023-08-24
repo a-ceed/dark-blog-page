@@ -113,7 +113,7 @@ export default function Home({posts}) {
                     </article>
 
                     )})}
-                    </div>4
+                    </div>
                 </div>
 
         </main>
