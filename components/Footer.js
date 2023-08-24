@@ -11,12 +11,9 @@ function Footer (props){
                 </section>
 
                 <nav className="site-footer-nav">
-                    <Link href="https://pikabu.ru/@darkecologist">
-                        <a>На Пикабу</a>
-                    </Link>
 
                         <a href="https://t.me/darkecologist" target="_blank" rel="noopener noreferrer">
-                           В Телеграме
+                           Присоединяйся в Телеграме
                         </a>
 
 
