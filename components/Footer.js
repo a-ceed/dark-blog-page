@@ -13,7 +13,7 @@ function Footer (props){
                 <nav className="site-footer-nav">
 
                         <a href="https://t.me/darkecologist" target="_blank" rel="noopener noreferrer">
-                           Присоединяйся в Телеграме
+                           Телеграм
                         </a>
 
 

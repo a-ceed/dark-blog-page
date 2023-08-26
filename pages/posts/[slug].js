@@ -69,10 +69,12 @@ export default function Post({frontmatter, content, slug}) {
             <div className="imgcontainer"><img src={"https://temniyecolog.ru/"+bannerImage}/></div>
 
             <section className="post-full-content">
-        <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-                {/*<div> <a className="author-telegram">*/}
-                {/*    <Image src={"https://temniyecolog.ru/_next/static/media/telegram.1e9a8a8b.png"} alt="Экология Тёмного эколога" layout="responsive" quality="25" width="190" height="51" />*/}
-                {/*</a></div>*/}
+                <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <a className="author-telegram" href="https://t.me/darkecologist" target="_blank" rel="noopener noreferrer">
+                        <Image src={"https://temniyecolog.ru/_next/static/media/telegram.1e9a8a8b.png"} alt="Экология Тёмного эколога" layout="fixed" quality="25" width="190" height="51"  />
+                    </a>
+                </div>
             </section>
         </div>
     </main>

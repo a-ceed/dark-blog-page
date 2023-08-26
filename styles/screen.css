@@ -1560,11 +1560,18 @@ Usage (In Ghost editor):
 }
 
 .author-telegram {
+        text-align: center;
+        position: center;
+        text-decoration: none !important;
+        margin-top: 35px;
+        box-shadow: none !important;
+    }
 
-    width: 40px;
-    height: 40px;
+.author-telegram img{
+    text-align: center;
 
 }
+
 
 .author-list-item .author-card {
     position: absolute;

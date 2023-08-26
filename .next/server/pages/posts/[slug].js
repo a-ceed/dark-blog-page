@@ -193,31 +193,26 @@ function Post({ frontmatter , content , slug  }) {
                                     __html: external_markdown_it_default()().render(content)
                                 }
                             }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                children: [
-                                    " ",
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                        className: "author-telegram",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
-                                                src: "https://temniyecolog.ru/_next/static/media/telegram.png",
-                                                alt: "Экология Тёмного эколога",
-                                                layout: "responsive",
-                                                quality: "25",
-                                                width: "190",
-                                                height: "51"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
-                                                src: telegram,
-                                                alt: "Экологический блог Тёмного эколога",
-                                                layout: "responsive",
-                                                quality: "95",
-                                                width: "190",
-                                                height: "51"
-                                            })
-                                        ]
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                style: {
+                                    display: 'flex',
+                                    justifyContent: 'center',
+                                    alignItems: 'center'
+                                },
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    className: "author-telegram",
+                                    href: "https://t.me/darkecologist",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
+                                        src: "https://temniyecolog.ru/_next/static/media/telegram.1e9a8a8b.png",
+                                        alt: "Экология Тёмного эколога",
+                                        layout: "fixed",
+                                        quality: "25",
+                                        width: "190",
+                                        height: "51"
                                     })
-                                ]
+                                })
                             })
                         ]
                     })

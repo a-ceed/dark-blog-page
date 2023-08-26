@@ -310,79 +310,76 @@ function Home({ posts  }) {
             /*#__PURE__*/ jsx_runtime_.jsx("main", {
                 id: "site-main",
                 className: "site-main outer",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: "inner posts",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "post-feed",
-                            children: sortposts.map((post)=>{
-                                //extract slug and frontmatter
-                                const { slug , frontmatter  } = post;
-                                //extract frontmatter properties
-                                const { id , title , annotation , category , date , bannerImage , previewImage , tags  } = frontmatter;
-                                const postImage = previewImage ? previewImage : bannerImage;
-                                return(// eslint-disable-next-line react/jsx-key
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("article", {
-                                    className: "post-card post tag-getting-started",
-                                    children: [
-                                        featImg && /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                            href: "posts/" + slug,
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                className: "post-card-image-link",
-                                                "aria-label": title,
-                                                children: nextImages ? /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                    className: "post-card-image",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
-                                                        src: "https://temniyecolog.ru/" + postImage,
-                                                        alt: title,
-                                                        sizes: "(max-width: 640px) 320px, (max-width: 1000px) 500px, 680px",
-                                                        layout: "fill",
-                                                        objectFit: "cover",
-                                                        quality: "90"
-                                                    })
-                                                }) : feature_image && /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                    className: "post-card-image",
-                                                    src: feature_image,
-                                                    alt: title
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "post-feed",
+                        children: sortposts.map((post)=>{
+                            //extract slug and frontmatter
+                            const { slug , frontmatter  } = post;
+                            //extract frontmatter properties
+                            const { id , title , annotation , category , date , bannerImage , previewImage , tags  } = frontmatter;
+                            const postImage = previewImage ? previewImage : bannerImage;
+                            return(// eslint-disable-next-line react/jsx-key
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("article", {
+                                className: "post-card post tag-getting-started",
+                                children: [
+                                    featImg && /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                        href: "posts/" + slug,
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            className: "post-card-image-link",
+                                            "aria-label": title,
+                                            children: nextImages ? /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                className: "post-card-image",
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
+                                                    src: "https://temniyecolog.ru/" + postImage,
+                                                    alt: title,
+                                                    sizes: "(max-width: 640px) 320px, (max-width: 1000px) 500px, 680px",
+                                                    layout: "fill",
+                                                    objectFit: "cover",
+                                                    quality: "90"
                                                 })
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "post-card-content",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                href: "posts/" + slug,
-                                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                    className: "post-card-content-link",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
-                                                            className: "post-card-header",
-                                                            children: [
-                                                                tags && /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                    className: "post-card-primary-tag",
-                                                                    children: tags
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                                                    className: "post-card-title",
-                                                                    children: title
-                                                                })
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("section", {
-                                                            className: "post-card-excerpt",
-                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                                children: annotation
-                                                            })
-                                                        })
-                                                    ]
-                                                })
+                                            }) : feature_image && /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                className: "post-card-image",
+                                                src: feature_image,
+                                                alt: title
                                             })
                                         })
-                                    ]
-                                }, post.id));
-                            })
-                        }),
-                        "4"
-                    ]
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: "post-card-content",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                            href: "posts/" + slug,
+                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                                className: "post-card-content-link",
+                                                children: [
+                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
+                                                        className: "post-card-header",
+                                                        children: [
+                                                            tags && /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                className: "post-card-primary-tag",
+                                                                children: tags
+                                                            }),
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                                                className: "post-card-title",
+                                                                children: title
+                                                            })
+                                                        ]
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("section", {
+                                                        className: "post-card-excerpt",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                            children: annotation
+                                                        })
+                                                    })
+                                                ]
+                                            })
+                                        })
+                                    })
+                                ]
+                            }, post.id));
+                        })
+                    })
                 })
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("footer", {
