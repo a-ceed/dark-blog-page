@@ -45,7 +45,14 @@ export default function About({frontmatter, content}) {
             <div className="imgcontainer"><img src={"https://temniyecolog.ru/"+bannerImage}/></div>
 
             <section className="post-full-content">
-        <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+                <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <div style={{ width:'190', height: '51', marginTop: '50px' }}>
+                        <a className="author-telegram" href="https://t.me/darkecologist" target="_blank" rel="noopener noreferrer">
+                            <Image src={"https://temniyecolog.ru/_next/static/media/telegram.1e9a8a8b.png"} alt="Экология Тёмного эколога" layout="fixed" quality="25" width="190" height="51"  />
+                        </a>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
