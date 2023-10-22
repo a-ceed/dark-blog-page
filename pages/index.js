@@ -46,13 +46,13 @@ export default function Home({posts}) {
 
 
         <link rel="icon" href="https://temniyecolog.ru/favicon.ico" />
-          <YandexMetrika
-              yid={YOUR_YM_ID}
-              clickmap={true}
-              trackLinks={true}
-              accurateTrackBounce={true}
-              webvisor={false}
-          />
+          {/*<YandexMetrika*/}
+          {/*    yid={YOUR_YM_ID}*/}
+          {/*    clickmap={true}*/}
+          {/*    trackLinks={true}*/}
+          {/*    accurateTrackBounce={true}*/}
+          {/*    webvisor={false}*/}
+          {/*/>*/}
       </Head>
 
       <Header />
