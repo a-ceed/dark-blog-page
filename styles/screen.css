@@ -2593,6 +2593,12 @@ Usage (In Ghost editor):
         margin: 5px 0 0 0;
         font-size: 1.8rem;
     }
+    .wrapper-telegram {
+        flex-direction: column;
+    }
+    .wrapper-align-telegram {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 500px) {

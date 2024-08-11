@@ -70,13 +70,35 @@ export default function Post({frontmatter, content, slug}) {
 
             <section className="post-full-content">
                 <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <div style={{ width:'190', height: '51', marginTop: '50px' }}>
-                    <a className="author-telegram" href="https://t.me/darkecologist" target="_blank" rel="noopener noreferrer">
-                        <Image src={"https://temniyecolog.ru/_next/static/media/telegram.1e9a8a8b.png"} alt="Экология Тёмного эколога" layout="fixed" quality="25" width="190" height="51"  />
-                    </a>
+
+                {/*Ссылки телеграм*/}
+                <div className="wrapper-telegram" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <div className="wrapper-align-telegram" style={{ display: 'flex' }}>
+                        <div className="block-telegram" style={{ marginRight: '15px', marginBottom: '15px', maxHeight: '81px', maxWidth: '251px' }}>
+                            <a className="author-telegram" href="https://t.me/darkecologist" target="_blank" rel="noopener noreferrer">
+                                <img alt="Экологический блог в телеграме Тёмного эколога"
+                                     src="/ecologic-blog.png"
+                                     decoding="async"
+                                     data-nimg="intrinsic"
+                                     width={251}
+                                     height={81}>
+                                </img>
+                            </a>
+                        </div>
+                        <div style={{ maxHeight: '81px', maxWidth: '316px' }}>
+                            <a className="author-telegram" href="https://t.me/+cW-J3353tF03YzEy" target="_blank" rel="noopener noreferrer">
+                                <img alt="Экологический чат в телеграме Тёмного эколога"
+                                     src="/ecologic-blog-podpole.png"
+                                     decoding="async"
+                                     data-nimg="intrinsic"
+                                     width={316}
+                                     height={81}>
+                                </img>
+                            </a>
+                        </div>
                     </div>
                 </div>
+
             </section>
         </div>
     </main>
