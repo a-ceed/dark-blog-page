@@ -28,7 +28,7 @@ export default function Home({posts}) {
   return (
     <div className="">
       <Head>
-        <title>Блог Тёмного эколога</title>
+        <title>Тёмный эколог — блог</title>
         <meta name="description" content="Пойдём со мной из мира грёз экоактивизма в реальный мир науки экологии. Я расскажу как корпорации «разводят» зеленое движение и покажу тебе мир без них." />
         <meta name="yandex-verification" content="1b19d3159f8ae8fd" />
 
