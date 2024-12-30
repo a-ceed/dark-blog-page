@@ -3,9 +3,9 @@ id: "21"
 title: "Международная мусорная премия 2024"
 annotation: "Определён победитель 2024 года"
 category: "example"
-date: "2024-08-07"
+date: "2024-12-31"
 previewImage: "ita-winner.jpg"
-bannerImage: "ita.png"
+bannerImage: "ita-winner.jpg"
 author: "Тёмный Эколог"
 tags:
 -
