@@ -5,7 +5,7 @@ annotation: "Определён победитель 2024 года"
 category: "example"
 date: "2024-12-31"
 previewImage: "ita-winner.jpg"
-bannerImage: "ita.jpg"
+bannerImage: "ita.png"
 author: "Тёмный Эколог"
 tags:
 -
