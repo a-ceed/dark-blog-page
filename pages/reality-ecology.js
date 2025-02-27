@@ -42,8 +42,6 @@ export default function RealityEcology({frontmatter, content}) {
             </header>
         </article>
 
-            <div className="imgcontainer"><iframe position="absolute" margin-top="-2rem" src="https://maps.sensor.community/#11/59.1219/37.9516" height="480" width="100%" scrolling="no"></iframe></div>
-
 
             <section className="post-full-content">
                 <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
