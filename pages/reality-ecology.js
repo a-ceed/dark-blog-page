@@ -84,7 +84,7 @@ export default function RealityEcology({frontmatter, content}) {
 
 // Generate the static props for the page
 export async function getStaticProps() {
-    const fileName = fs.readFileSync(`pages/reality-ecology/cours-reality-ecology.md`, 'utf-8');
+    const fileName = fs.readFileSync(`pages/reality-ecology/reality-ecology.md`, 'utf-8');
     const { data: frontmatter, content } = matter(fileName);
     return {
       props: {
