@@ -1,6 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
-import md from 'markdown-it';
+import { md } from '../markdown-it.config'
 import Link from "next/link";
 import Image from "next/image";
 
@@ -8,6 +8,7 @@ import Image from "next/image";
 // The page for each post
 export default function RealityEcology({frontmatter, content}) {
     const {title, author, annotation, category, date, bannerImage, tags} = frontmatter
+    const htmlContent = md.render(content);
 
     return <main id="site-main" className="site-main outer">
         <div  className="inner" >
@@ -44,7 +45,7 @@ export default function RealityEcology({frontmatter, content}) {
 
 
             <section className="post-full-content">
-                <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+                <div className="post-content load-external-scripts" dangerouslySetInnerHTML={{ __html: htmlContent }} />
                 {/*Ссылки телеграм*/}
                 <div className="wrapper-telegram" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div className="wrapper-align-telegram" style={{ display: 'flex' }}>
