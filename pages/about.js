@@ -13,11 +13,6 @@ export default function About({frontmatter, content}) {
         <div  className="inner" >
         <article className="post-full post tag-getting-started featured">
             <header className="post-full-header">
-                <section className="post-full-tags">
-                    <Link href="/tag/getting-started">
-                        <a>{tags}</a>
-                    </Link>
-                </section>
 
                 <h1 className="post-full-title">{title}</h1>
                 <p className="post-full-custom-excerpt">{annotation}</p>
