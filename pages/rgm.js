@@ -1,6 +1,4 @@
-import Link from "next/link";
 import Image from "next/image";
-//import PData from "./parsedData.txt"
 
 
 // The page for each post

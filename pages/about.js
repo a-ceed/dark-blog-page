@@ -1,7 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
 import md from 'markdown-it';
-import Link from "next/link";
 import Image from "next/image";
 
 

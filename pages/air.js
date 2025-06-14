@@ -42,6 +42,7 @@ export default function Air({frontmatter, content}) {
             </header>
         </article>
 
+            {/* eslint-disable-next-line react/no-unknown-property */}
             <div className="imgcontainer"><iframe position="absolute" margin-top="-2rem" src="https://maps.sensor.community/#11/59.1219/37.9516" height="480" width="100%" scrolling="no"></iframe></div>
 
 
