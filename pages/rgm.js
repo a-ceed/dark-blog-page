@@ -11081,7 +11081,7 @@ export default function Rgm({frontmatter, content, dataArray}) {
         <div className="inner">
             <article className="post-full post tag-getting-started featured">
                 <header className="post-full-header">
-                    <h1 className="post-full-title">Статистика превышений ПДК по воздуху в Череповце</h1>
+                    <h1>Статистика регистрируемых превышений ПДК в атмосферном воздухе Череповца</h1>
                     <p className="post-full-custom-excerpt">На основе отчетов Росгидромета 2025-2019 года</p>
                     <div className="post-full-byline">
                         <section className="post-full-byline-content">
@@ -11106,13 +11106,27 @@ export default function Rgm({frontmatter, content, dataArray}) {
                 </header>
             </article>
 
-            <h3 className={'label'}>Красный -- зарегистрировано превышение ПДК. Зелёный -- нет.</h3>
+            <blockquote><i> По объему выброса в атмосферу от стационарных источников г. Череповец
+                находится на втором месте в России. На Череповецкий металлургический комбинат
+                ПАО «Северсталь» приходится 70 % выбросов по области и 91 % выбросов по городу.
+            </i>
+
+            </blockquote>
+            Цитата из доклада Департамента природных ресурсов: <a>https://mpr.gov35.ru/dokumenty/detail.php?ELEMENT_ID=21491&sphrase_id=71752</a>
+            <br/>
+            <br/>
+            <br/>
+            <h3 className={'label'}>Красным выделены отчеты регистрирующие превышения, зелёным отчеты не выявившие превышений.</h3>
+
+
             <div>
                 {dataArray0.map((item, index) => (
-                    <div key={index} className={item.pdk.length ? 'alarm' : 'green'} style={{ marginBottom: '20px', padding: '10px', border: '1px solid #ccc' }}>
+                    <div key={index} className={item.pdk.length ? 'alarm' : 'green'}
+                         style={{marginBottom: '20px', padding: '10px', border: '1px solid #ccc'}}>
                         <p><strong>Дата отчёта:</strong> {item.date}</p>
                         <p>
-                            <strong>Ссылка на отчёт:</strong> <a href={item.link} target="_blank" rel="noopener noreferrer">{item.link}</a>
+                            <strong>Ссылка на отчёт:</strong> <a href={item.link} target="_blank"
+                                                                 rel="noopener noreferrer">{item.link}</a>
                         </p>
                         {item.pdk.length > 0 && (
                             <div>
@@ -11138,7 +11152,12 @@ export default function Rgm({frontmatter, content, dataArray}) {
                      style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <div className="wrapper-align-telegram" style={{display: 'flex'}}>
                         <div className="block-telegram"
-                             style={{marginRight: '15px', marginBottom: '15px', maxHeight: '81px', maxWidth: '251px'}}>
+                             style={{
+                                 marginRight: '15px',
+                                 marginBottom: '15px',
+                                 maxHeight: '81px',
+                                 maxWidth: '251px'
+                             }}>
                             <a className="author-telegram" href="https://t.me/darkecologist" target="_blank"
                                rel="noopener noreferrer">
                                 <img alt="Экологический блог в телеграме Тёмного эколога"
