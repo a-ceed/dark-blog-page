@@ -489,6 +489,20 @@ h6 {
 /* ==========================================================================
    Custom style
    ========================================================================== */
+.red {
+    color: red;
+}
+.nored {
+    color: green;
+}
+.alarmPrw {
+    width: 1px;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.greenPrw {
+    width: 1px;
+    background-color: rgba(0, 255, 0, 0.2);
+}
 .alarm {
     background-color: rgba(255, 0, 0, 0.2);
     padding: 10px;

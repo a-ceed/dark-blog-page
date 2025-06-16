@@ -11112,12 +11112,32 @@ export default function Rgm({frontmatter, content, dataArray}) {
             </i>
 
             </blockquote>
-            Цитата из доклада Департамента природных ресурсов: <a>https://mpr.gov35.ru/dokumenty/detail.php?ELEMENT_ID=21491&sphrase_id=71752</a>
+            Цитата из доклада Департамента природных
+            ресурсов: <a>https://mpr.gov35.ru/dokumenty/detail.php?ELEMENT_ID=21491&sphrase_id=71752</a>
             <br/>
-            <br/>
-            <br/>
-            <h3 className={'label'}>Красным выделены отчеты регистрирующие превышения, зелёным отчеты не выявившие превышений.</h3>
 
+            <br/>
+            <br/>
+
+            <br/>
+            <br/><br/>
+            <br/>
+            <h3 className={'label'}>Диаграма сведенных отчётов за последние 6 лет</h3>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                {dataArray0.map((item, index) => (
+                    <div
+                        key={index}
+                        className={item.pdk.length > 0 ? 'alarmPrw' : 'greenPrw'}
+                        style={{width: '3px', height: '35px',}}
+                    >
+                    </div>
+                ))}
+            </div>
+            <br/>
+             <span className="red">Красным</span> выделены отчеты регистрирующие превышения, <span className="nored">зелёным</span> отчеты не выявившие превышений.
+            <br/>
+            <br/><br/>
+            <br/>
 
             <div>
                 {dataArray0.map((item, index) => (
@@ -11194,7 +11214,6 @@ export async function getStaticProps() {
 
 
     return {
-        props: {
-        },
+        props: {},
     };
 }
