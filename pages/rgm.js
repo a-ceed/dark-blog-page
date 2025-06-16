@@ -11145,9 +11145,17 @@ export default function Rgm({frontmatter, content, dataArray}) {
                          style={{marginBottom: '20px', padding: '10px', border: '1px solid #ccc'}}>
                         <p><strong>Дата отчёта:</strong> {item.date}</p>
                         <p>
-                            <strong>Ссылка на отчёт:</strong> <a href={item.link} target="_blank"
-                                                                 rel="noopener noreferrer">{item.link}</a>
+                            <strong>Ссылка на отчёт:</strong>{' '}
+                            <a
+                                href={item.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="link-truncate"
+                            >
+                                {item.link}
+                            </a>
                         </p>
+
                         {item.pdk.length > 0 && (
                             <div>
                                 <p><strong>Цитата:</strong></p>
