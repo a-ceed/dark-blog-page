@@ -126,7 +126,7 @@ export default function Home({posts}) {
 }
 //Generating the Static Props for the Blog Page
 export async function getStaticProps(){
-    // get list of files from the posts folder
+    // get list of files from the media folder
     const readfiles = fs.readdirSync('posts');
 
 
