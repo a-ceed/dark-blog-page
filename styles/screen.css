@@ -928,6 +928,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 @media (max-width: 500px) {
     .post-card-title {
         font-size: 1.9rem;
+        text-decoration: underline;
     }
 
     .post-card-excerpt {
