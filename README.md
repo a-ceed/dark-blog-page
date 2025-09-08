@@ -10,5 +10,10 @@ npm run build
 ```bash
 npm run export
 ```
+Запускаем проект
+
+```bash
+npm run dev
+```
 
 Деплоим на сервер?
